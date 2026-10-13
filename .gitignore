@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset - do not upload MRI data to GitHub
+data/brain_mri/
+
+# Trained model files
+models/*.keras
+models/*.h5
+
+# Generated reports
+reports/figures/
+reports/metrics/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
