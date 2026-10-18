@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_PATH = BASE_DIR / "models" / "brainscan_model.keras"
+MODEL_PATH = BASE_DIR / "models" / "brainscan_model.h5"
 IMAGE_SIZE = (224, 224)
 CLASS_NAMES = ["glioma", "meningioma", "notumor", "pituitary"]
 
